@@ -11,7 +11,7 @@ function RowPost(props) {
       console.log(response.data)
       setMoives(response.data.results)
      }).catch(err=>{
-      // alert('Network Error')
+      alert('Network Error')
      })
   },[])
   const opts = {
